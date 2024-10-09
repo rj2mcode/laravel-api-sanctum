@@ -33,6 +33,10 @@ return [
     |
     | Supported: "session"
     |
+    'web' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
     */
 
     'guards' => [
